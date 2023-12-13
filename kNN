@@ -21,7 +21,7 @@ class KNNClassifier:
             predictions.append(most_common[0][0])
         return np.array(predictions)
 
-# Ejemplo de uso
+# Ejemplo de implementacion
 # Datos de entrenamiento
 X_train = np.array([[1, 2], [1.5, 1.8], [5, 8], [8, 8], [1, 0.6], [9, 11]])
 y_train = np.array([0, 0, 1, 1, 0, 1])
