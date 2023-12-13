@@ -2,6 +2,9 @@ import numpy as np
 from sklearn.datasets import make_blobs
 import matplotlib.pyplot as plt
 
+#make_blobs de sklearn.datasets genera datos aleatorios
+#numpy para operaciones matriciales y matplotlib para visualización
+
 class KMeans:
     def __init__(self, n_clusters=3, max_iters=100):
         self.n_clusters = n_clusters
